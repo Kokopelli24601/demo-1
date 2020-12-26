@@ -1,0 +1,187 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+  /* Jumbotron, Heading  */ 
+
+.jumbotron {
+  margin-bottom: 0;
+  background-size: 100%;
+  background-image: linear-gradient(60deg, turquoise, teal 100%);
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  -webkit-text-fill-color: #EB2431;
+  -webkit-text-stroke-color: #E51523;
+  -webkit-text-stroke-width: 1px;
+}
+
+p.slogan {
+  font-family: 'Lobster', cursive;
+  -webkit-text-fill-color: #573813;
+  -webkit-text-stroke-color:  #57370F;
+  -webkit-text-stroke-width: 1px;
+  font-size: x-large;
+}
+
+/* Responsive Nav-Bar */
+
+.navbar {
+  margin-bottom: 0px;
+  border-radius: 0;
+  background-color: #573813;
+  color: white;
+  border: #57370F 1px;
+}
+.li {
+  color: white;
+}
+.li.active {
+  background-color: white;
+}
+
+/* Backgrounds, padding, animations, etc */
+
+div.panelcontainer {
+  padding: 10px;
+  background-color: #F9DBDD;
+  padding-top: 35px;
+  padding-bottom: 50px;
+  margin-bottom: 0;
+}
+.panel-popular {
+  text-align: center;
+  background-color: darkmagenta;
+  border-radius: 25px;
+}
+#popular-footer {
+  background-color: darkmagenta;
+  border-top: 1px solid darkmagenta;
+}
+
+.panel-newest {
+  text-align: center;
+  background-color: #FB8604;
+  border-radius: 25px;
+}
+#newest-footer {
+  background-color: #FB8604;
+  border-top: 1px solid #FB8604;
+}
+
+.panel-sales {
+  text-align: center;
+  background-color: #EB2431;
+  border-radius: 25px;
+}
+#sales-footer {
+  background-color: #EB2431;
+  border-top: 1px solid #EB2431;
+}
+
+.panel-footer {
+  font-size: large;
+  font-weight: bold;
+  color: white;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.row.col-sm-4 {
+  border-radius: 25%;
+}
+.panel-heading {
+  padding-bottom: 0px;
+}
+
+.panel {
+  background-color: lightgrey;
+}
+
+p {
+  color: orange;
+}
+
+footer {
+  background-color: #573813;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin-top: 0px;
+}
+
+.background-image {
+  z-index: -1;
+}
+
+img:hover {
+  cursor: pointer;
+  transform: scale(1.06);
+  transition: .3s ease;
+  object-fit: stretch;
+}
+
+span.popular {
+  color: white;
+  text-justify: center;
+  text-align: center;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: purple;
+  font-size: x-large;
+  text-decoration: bold;
+  padding-bottom: 0px;
+}
+
+span.newest {
+  color: white;
+  text-justify: center;
+  text-align: center;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: darkorange;
+  font-size: x-large;
+  text-decoration: bold;
+  padding-bottom: 0px;
+}
+
+span.best {
+  color: white;
+  text-justify: center;
+  text-align: center;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #E51523;
+  font-size: x-large;
+  text-decoration: bold;
+  padding-bottom: 0px;
+}
+
+span:hover {
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: x-large;
+  padding-bottom: 0px;
+  transform: scale(1.1);
+  transition: .3 ease;
+}
+a:hover {
+  cursor: pointer;
+text-decoration: none;
+font-weight: bold;
+font-size: large;
+padding-bottom: 0px;
+transition: .3s ease;
+}
+
+.btn-danger {
+  background-color: orange;
+  border: 1px solid darkorange;
+}
+.btn-danger:hover {
+  cursor: pointer;
+  font-weight: bold;
+  background-color: darkorange;
+  border: 1px solid darkorange;
+}

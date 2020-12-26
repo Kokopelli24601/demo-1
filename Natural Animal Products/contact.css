@@ -1,0 +1,78 @@
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar {
+   margin-bottom: 0;
+   border-radius: 0;
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {height: 450px}
+
+/* Set gray background color and 100% height */
+.sidenav {
+  padding-top: 20px;
+  background-color: #f1f1f1;
+  height: 100%;
+}
+
+ /* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+    .sidenav {
+      height: auto;
+      padding: 15px;
+    }
+.row.content {height:auto;} 
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  -webkit-text-fill-color: #EB2431;
+  -webkit-text-stroke-color: #E51523;
+  -webkit-text-stroke-width: 1px;
+  font-size: xx-large;
+}
+
+/* Responsive Nav-Bar */
+
+.navbar {
+  margin-bottom: 0px;
+  border-radius: 0;
+  background-color: #573813;
+  color: white;
+  border: #57370F 1px;
+}
+.li {
+  color: white;
+}
+.li.active {
+  background-color: white;
+}
+
+#body {
+    background-image: linear-gradient(60deg, turquoise, teal 100%);
+}
+
+h3 {
+    -webkit-text-fill-color: #573813;
+    -webkit-text-stroke-color:  #57370F;
+    -webkit-text-stroke-width: 1px;
+}
+
+.col-sm-2 {
+    background-color: #F9DBDD;
+}
+
+footer {
+    padding: 15px;
+    color: orange;
+    background-color: #573813;
+    border: #57370F 1px;
+    margin-bottom: 0px;
+}
+.container-fluid:after {
+    margin-bottom: 0px;
+}
